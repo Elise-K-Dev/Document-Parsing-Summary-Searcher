@@ -1,0 +1,11 @@
+data/
+.vscode/
+
+code/evidence_backend/target/
+code/evidence_backend/server.out.log
+code/evidence_backend/server.err.log
+
+code/scripts/bin/
+*.exe
+*.pdb
+*.log
