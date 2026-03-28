@@ -1,0 +1,62 @@
+ROOT=C:\Users\Elise\Desktop\dev\data\source\한진서버데이터
+
+[EXCLUDE_GLOB]
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\Thumbs.db
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\~$*
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\*.tmp
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\*.lnk
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\README.html
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\*.yvfoelvl
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\*.exe
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\*.msi
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\*.com
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\*.run
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\*.dll
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\*.sys
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\*.so
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\*.zip
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\**\*.mp4
+
+[EXCLUDE_FOLDER]
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\한진\29. 복사기 드라이버
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\한진\6. 정비이력\16.PLC 모듈 박기성\NEW CMS Dante
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\한진\6. 정비이력\16.PLC 모듈 박기성\아크로닉스12.5프로그램
+
+[REVIEW_EXACT_PATH]
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\한진\18. 회의자료\1. 주간 업무 보고\2022년\HJIT 주간 업무 보고(12월3주차)_정비팀 (복구됨).docx
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\한진\18. 회의자료\1. 주간 업무 보고\2024년\HJIT 주간업무 보고(3월5주차)_정비팀 (복구됨).docx
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\한진\18. 회의자료\1. 주간 업무 보고\2023년\HJIT 주간 업무 보고(12월2주차)_정비팀
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\한진\18. 회의자료\1. 주간 업무 보고\2023년\HJIT 주간 업무 보고(12월3주차)_정비팀
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\한진\18. 회의자료\1. 주간 업무 보고\2023년\HJIT 주간 업무 보고(12월4주차)_정비팀
+C:\Users\Elise\Desktop\dev\data\source\한진서버데이터\한진\18. 회의자료\1. 주간 업무 보고\2023년\HJIT 주간 업무 보고(12월4주차)_정비팀의 사본
+
+[REVIEW_NAME_KEYWORD]
+복사본
+사본
+Final
+최종
+old
+backup
+복구됨
+
+[DEDUPE_RULE]
+이름 기준 후보는 삭제하지 말 것
+SHA256 해시가 같은 파일만 실제 중복으로 처리할 것
+현재 확인된 실제 중복은 29파일, 13그룹
+이름 기준 후보 133파일 중 나머지 104파일은 수동 검토 유지
+
+[INCLUDE_EXT]
+.doc
+.docx
+.xls
+.xlsx
+.xlsm
+.ppt
+.pptx
+.pptm
+.pdf
+.txt
+
+[INCLUDE_NOTE]
+xlsm은 매크로 실행 없이 셀/시트 데이터만 파싱
+파싱 결과에는 원본 경로, 파일명, 확장자, SHA256 해시 저장
